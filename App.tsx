@@ -84,9 +84,7 @@ const App: React.FC = () => {
       {/* Sidebar - Desktop Only */}
       <aside className="hidden md:flex flex-col w-64 bg-white border-r border-slate-200 p-6 sticky top-0 h-screen">
         <div className="flex items-center gap-3 mb-10">
-          <div className="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center text-white shadow-indigo-200 shadow-lg">
-            <Rocket className="w-6 h-6" />
-          </div>
+          <img src="/Foresightlogo.jpeg" alt="FORESIGHT Logo" className="w-10 h-10 object-contain" />
           <span className="text-xl font-black text-slate-900 tracking-tight">FORESIGHT</span>
         </div>
 
